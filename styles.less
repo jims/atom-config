@@ -1,0 +1,29 @@
+atom-text-editor::shadow {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.editor .cursor {
+
+}
+
+.scrollbars-visible-always {
+    /deep/ ::-webkit-scrollbar {
+        width: 0.5em;
+        height: 0.5em;
+    }
+
+    /deep/ ::-webkit-scrollbar-thumb {
+        background-color: rgba(255,255,255,.1);
+        border-radius: 3px;
+
+        &:hover {
+          background: rgba(255,255,255,.2);
+        }
+    }
+}
+
+atom-text-editor .vertical-scrollbar,
+atom-text-editor::shadow .vertical-scrollbar {
+  display: none;
+}

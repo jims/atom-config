@@ -1,0 +1,26 @@
+"*":
+  "exception-reporting":
+    userId: "5debf46d-f27c-8922-a77e-8efab16d9d2a"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "f4eb5a094f706189c464942dd1054d92c3fadcb7"
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    fontFamily: "Source Code Pro Light"
+    lineHeight: 1.4
+    tabLength: 4
+  core:
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+    autoHideMenuBar: true
+  minimap:
+    scrollAnimation: true
+    textOpacity: 0.4
+    adjustMinimapWidthToSoftWrap: false
+    plugins:
+      selection: true
