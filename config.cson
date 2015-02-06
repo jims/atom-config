@@ -18,9 +18,12 @@
       "base16-ocean-dark-spacegray"
     ]
     autoHideMenuBar: true
+    projectHome: "D:\\projects"
   minimap:
-    scrollAnimation: true
+    scrollAnimation: false
     textOpacity: 0.4
     adjustMinimapWidthToSoftWrap: false
     plugins:
       selection: true
+  whitespace:
+    removeTrailingWhitespace: false
